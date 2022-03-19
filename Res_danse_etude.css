@@ -10,8 +10,8 @@ html {
 
 body {
   background-color: #42290a;
-  background-image: -webkit-linear-gradient(to left, #080703 5%, #000000);
-  background-image: linear-gradient(to left,#080703 5%, #42290a);
+  /*background-image: -webkit-linear-gradient(to left, #318d32 5%, #569EE4);*/
+  background-image: linear-gradient(to left,#7FCF80 5%, #569EE4);
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
@@ -85,14 +85,37 @@ img {
   margin: 2em 0 0.5em;
 }
 
+.card article .lien span {
+  color: #014302;
+}
+
+.card article .liens span {
+  color: #9C0000;
+}
+
 .card article .infos span {
 	font-size: 1.25em;
-	color: #7A2810; 
+	color: #037404; 
 }
+
+.card article .descriptions span {
+  color: #014302;
+}
+
+.card article .descriptions .complement {
+  color: #014302;
+}
+
+.card article .contact span {
+  color: #014302;
+}
+
+.card article .contact .complement {
+  color: #014302;
+}
+
 
 .card article img{
 	max-width: 50px;
 	max-height: 50px;
-	-webkit-filter: grayscale(100%); 
-	filter: grayscale(100%);
 }
