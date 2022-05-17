@@ -11,7 +11,7 @@ html {
 body {
   background-color: #42290a;
   /*background-image: -webkit-linear-gradient(to left, #318d32 5%, #569EE4);*/
-  background-image: linear-gradient(to left,#7FCF80 5%, #569EE4);
+  background-image: linear-gradient(to left,#9A766A 5%, #DBA321);
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
@@ -86,16 +86,16 @@ img {
 }
 
 .card article .lien span {
-  color: #014302;
+  color: #d49204;
 }
 
 .card article .liens span {
-  color: #9C0000;
+  color: #b55738;
 }
 
 .card article .infos span {
 	font-size: 1.25em;
-	color: #037404; 
+	color: #000000; 
 }
 
 .card article .descriptions span {
@@ -107,13 +107,12 @@ img {
 }
 
 .card article .contact span {
-  color: #014302;
+  color: #000000;
 }
 
 .card article .contact .complement {
-  color: #014302;
+  color: #000000;
 }
-
 
 
 .card article img{
